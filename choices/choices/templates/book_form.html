@@ -1,0 +1,9 @@
+{%extends 'reg.html'%}
+  {%block body_block%}
+    <h1>registration </h1>
+    <form method="POST">
+      {%csrf_token%}
+    <input type="submit" class="btn btn-primary" value="Insert">
+    </form>
+
+  {%endblock%}
